@@ -58,7 +58,9 @@ $(document).ready(function () {
     }
 
     //Results
-    if (javaScriptCounter > rustCounter && javaScriptCounter > pythonCounter) {
+    if (javaScriptCounter === 0 && rustCounter === 0 && pythonCounter === 0) {
+      result = "Please fill out the form!";
+    } else if (javaScriptCounter > rustCounter && javaScriptCounter > pythonCounter) {
       result = "Hey, " + yourName + " your programming language is JavaScript";
     } else if (rustCounter > javaScriptCounter && rustCounter > pythonCounter) {
       result = "Hey, " + yourName + " your programming language is Rust";
@@ -66,7 +68,7 @@ $(document).ready(function () {
       result = "Hey, " + yourName + " your programming language is Python";
     }
     $("#result").text(result);
-    $("#result").toggle();
+    $("#card-results").show();
 
 
   })

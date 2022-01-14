@@ -2,8 +2,6 @@ body {
   font-family:'Courier New', Courier, monospace;
 }
 
-
-
 .card-title {
   text-align: center;
   margin: inherit;
@@ -26,7 +24,10 @@ label {
   font-weight: bolder ;
 }
 
+#card-results {
+  display: none;
+}
 
 #result {
-  display: none;
+  padding-bottom: 2em;
 }
