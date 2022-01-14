@@ -57,9 +57,16 @@ $(document).ready(function () {
       pythonCounter += 1;
     }
 
-
-
-
+    //Results
+    if (javaScriptCounter > rustCounter && javaScriptCounter > pythonCounter) {
+      result = "Hey, " + yourName + " your programming language is JavaScript";
+    } else if (rustCounter > javaScriptCounter && rustCounter > pythonCounter) {
+      result = "Hey, " + yourName + " your programming language is Rust";
+    } else if (pythonCounter > javaScriptCounter && pythonCounter > rustCounter) {
+      result = "Hey, " + yourName + " your programming language is Python";
+    }
+    $("#result").text(result);
+    $("#result").fadeIn();
 
   })
 })
