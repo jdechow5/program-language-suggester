@@ -8,9 +8,6 @@ $(document).ready(function () {
     const musicChoice = $("select#music").val();
     const beverageChoice = $("select#beverage").val();
 
-    $("#result").hide()
-    console.log(result)
-
     let javaScriptCounter = 0;
     let pythonCounter = 0;
     let rustCounter = 0;
@@ -69,8 +66,8 @@ $(document).ready(function () {
       result = "Hey, " + yourName + " your programming language is Python";
     }
     $("#result").text(result);
-    $("#result").fadeIn();
-    event.preventDefault();
+    $("#result").toggle();
+
 
   })
 })
