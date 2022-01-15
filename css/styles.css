@@ -24,10 +24,24 @@ label {
   font-weight: bolder ;
 }
 
+.card-title {
+  font-weight: bolder;
+  font-size-adjust: inherit;
+}
+
+.buttonHolder {
+  text-align: center;
+}
+
 #card-results {
   display: none;
+  font-size: 17px;
+  font-weight: bolder;
+  text-align: center;
 }
 
 #result {
-  padding-bottom: 2em;
+  padding-bottom: 3em;
+  font-size: 2em;;
+  
 }

@@ -61,11 +61,11 @@ $(document).ready(function () {
     if (javaScriptCounter === 0 && rustCounter === 0 && pythonCounter === 0) {
       result = "Please fill out the form!";
     } else if (javaScriptCounter > rustCounter && javaScriptCounter > pythonCounter) {
-      result = "Hey, " + yourName + " your programming language is JavaScript";
+      result = "Hey, " + yourName + " your programming language is JavaScript!";
     } else if (rustCounter > javaScriptCounter && rustCounter > pythonCounter) {
-      result = "Hey, " + yourName + " your programming language is Rust";
+      result = "Hey, " + yourName + " your programming language is Rust!";
     } else if (pythonCounter > javaScriptCounter && pythonCounter > rustCounter) {
-      result = "Hey, " + yourName + " your programming language is Python";
+      result = "Hey, " + yourName + " your programming language is Python!";
     }
     $("#result").text(result);
     $("#card-results").show();
