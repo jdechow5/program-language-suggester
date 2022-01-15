@@ -6,11 +6,11 @@ body {
   text-align: center;
   margin: inherit;
   padding: 10px;
-  background-color: #ADF7B6;
+  background-color: #B1C1C0;
 }
 
 .card-body {
-  background-color: #C7AC92;
+  background-color: #918868;
 }
 
 .form-group {
@@ -20,8 +20,18 @@ body {
   text-align: center;
 }
 
+.form-control {
+  text-align: justify;
+  text-size: 21px;
+  background-color: #E2E8C0;
+}
+
+option {
+  background-color: #E2E8C0;
+}
 label {
-  font-weight: bolder ;
+  font-weight: bolder;
+  font-size: 23px;
 }
 
 .card-title {
@@ -41,7 +51,6 @@ label {
 }
 
 #result {
-  padding-bottom: 3em;
-  font-size: 2em;;
-  
+  padding-bottom: 5em;
+  font-size: 2em;
 }
