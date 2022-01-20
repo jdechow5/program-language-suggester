@@ -11,6 +11,7 @@ $(document).ready(function () {
     let javaScriptCounter = 0;
     let pythonCounter = 0;
     let rustCounter = 0;
+    let result = "";
 
     //Question 1 
     if (animalChoice === "Dog") {

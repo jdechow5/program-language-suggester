@@ -18,11 +18,12 @@ _This webpage will ask you 5 questions and based upon your results will suggest 
 
 ## Setup/Installation Requirements
 
-* _You may clone the repository at <https://github.com/jdechow5/program-language-suggester>_
-  * Click Green Code button and copy https://github.com/jdechow5/program-language-suggester.git
-  * Within your command line navigate to your Desktop
-  * Next enter ~ `git remote https://github.com/jdechow5/program-language-suggester.git`
-  * Next verify it cloned by entering `git remote -v`
+* _Clone the Programming Language Suggester GitHub [repository](https://github.com/jdechow5/program-language-suggester) by running the following code in your terminal_
+`$ git clone https://github.com/jdechow5/program-language-suggester`
+* _Open index.html in your preferred browser_
+
+* _Or you can click [here](https://jdechow5.github.io/program-language-suggester/) to visit the page on gh-pages._
+
 
 
 
